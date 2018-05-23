@@ -11,8 +11,8 @@ package examenprogramacion.ivancalfer;
  */
 public class UberBlack extends VehiculoPremium{
     private int ocupantes;
-    public UberBlack(String matricula, int tasaInicial, Categoria categoria,int ocupantes) {
-        super(matricula, tasaInicial, categoria);
+    public UberBlack(String matricula, int numPasajeros, Categoria categoria,int ocupantes) {
+        super(matricula, numPasajeros, categoria);
         this.ocupantes= ocupantes;
     }
 

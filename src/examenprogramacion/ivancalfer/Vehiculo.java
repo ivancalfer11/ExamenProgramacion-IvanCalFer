@@ -11,10 +11,19 @@ package examenprogramacion.ivancalfer;
  */
 public class Vehiculo {
     protected String matricula;
-   
+    protected int numPasajeros;
 
-    public Vehiculo(String matricula) {
+    public int getNumPasajeros() {
+        return numPasajeros;
+    }
+
+    public void setNumPasajeros(int numPasajeros) {
+        this.numPasajeros = numPasajeros;
+    }
+
+    public Vehiculo(String matricula,int numeroPasajeros) {
         this.matricula = matricula;
+        this.numPasajeros= numPasajeros;
         
     }
 

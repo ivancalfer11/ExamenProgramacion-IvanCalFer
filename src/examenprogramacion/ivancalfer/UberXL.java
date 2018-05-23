@@ -13,9 +13,10 @@ public class UberXL extends VehiculoEconomico{
     
     private  final int capacidad =7;
     
+    
 
-    public UberXL(String matricula,int tasaInicial, Categoria categoria) {
-        super(matricula,tasaInicial,categoria);
+    public UberXL(String matricula,int numPasajeros, Categoria categoria) {
+        super(matricula,numPasajeros,categoria);
         
     }
 

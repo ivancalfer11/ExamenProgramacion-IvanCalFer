@@ -13,8 +13,8 @@ public class VehiculoPremium extends Vehiculo{
     protected int tasaInicial;
     protected Categoria categoria;
 
-    public VehiculoPremium(String matricula, int tasaInicial, Categoria categoria) {
-        super(matricula);
+    public VehiculoPremium(String matricula,int numPasajeros, Categoria categoria) {
+        super(matricula,numPasajeros);
         if(this.categoria == Categoria.LUJO){
             this.tasaInicial = 15;
         }

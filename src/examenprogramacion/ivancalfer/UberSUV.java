@@ -12,8 +12,8 @@ package examenprogramacion.ivancalfer;
 public class UberSUV extends VehiculoPremium{
     private int ocupantes;
 
-    public UberSUV(String matricula, int tasaInicial, Categoria categoria,int ocupantes) {
-        super(matricula, tasaInicial, categoria);
+    public UberSUV(String matricula, int numPasajeros, Categoria categoria,int ocupantes) {
+        super(matricula,numPasajeros,  categoria);
         this.ocupantes = ocupantes;
     }
 
